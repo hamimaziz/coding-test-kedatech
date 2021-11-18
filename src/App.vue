@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Test coding Hamim Fathul Aziz"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import "vue2-datepicker/index.css";
 
 export default {
   name: 'App',
